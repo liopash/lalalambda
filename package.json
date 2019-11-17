@@ -1,0 +1,24 @@
+{
+  "name": "lalalambda",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liopash/lalalambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liopash/lalalambda/issues"
+  },
+  "homepage": "https://github.com/liopash/lalalambda#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
